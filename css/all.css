@@ -1,3 +1,11 @@
+.text-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-notosans{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
 .header{
     background-color: #AA0601;
     display: flex;
