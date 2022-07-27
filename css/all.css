@@ -139,3 +139,34 @@ h3{
     display: flex;
     justify-content: space-around;
 }
+
+.joint{
+    background-image: url('../images/index-bg.png');
+    background-size: cover;
+    padding: 80px 312px;
+}
+
+.joint h2{
+    color: white;
+    margin-bottom: 48px;
+}
+
+.joint img{
+    max-width: 648px;
+}
+
+.joint-products{
+    display: flex;
+}
+
+.joint-products li{
+    display: flex;
+    flex-direction: column;
+}
+
+.joint-products h3{
+    color: #AA0601;
+    font-size: 48px;
+    line-height: 72px;
+    background-color: white;
+}
