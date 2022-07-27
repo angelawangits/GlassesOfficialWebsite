@@ -19,6 +19,7 @@ h3{
     font-size: 24px;
     line-height: 36px;
     color: #650300;
+    text-align: center;
 }
 
 .header{
@@ -113,4 +114,28 @@ h3{
 
 .values li{
     width: 306px;
+}
+
+.classic{
+    padding: 80px 312px;
+}
+
+.classic h2{
+    margin-bottom: 48px;
+}
+
+.classic img{
+    max-width: 416px;
+    margin-bottom: 8px;
+}
+
+.classic h3{
+    color: #AA0601;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.classic-products{
+    display: flex;
+    justify-content: space-around;
 }
