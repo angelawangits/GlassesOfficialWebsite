@@ -6,6 +6,13 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+h2{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #650300;
+}
+
 .header{
     background-color: #AA0601;
     display: flex;
@@ -50,9 +57,9 @@
 }
 
 .banner h2{
-    color: #650300;
     font-size: 36px;
     line-height: 54px;
+    font-weight: 400;
 }
 
 .banner input[type=button]{
