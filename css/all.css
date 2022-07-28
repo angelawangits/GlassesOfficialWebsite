@@ -170,3 +170,46 @@ h3{
     line-height: 72px;
     background-color: white;
 }
+
+.recommend{
+    padding: 80px 312px;
+}
+
+.recommend h2{
+    margin-bottom: 48px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards img{
+    max-width: 306px;
+}
+
+.cards-content{
+    max-width: 306px;
+    border: 1px solid #DEE2E6;
+    padding: 16px;
+}
+
+.cards-content h3{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.cards-content p{
+    font-size: 16px;
+    line-height: 24px;
+    height: 120px;
+}
+.cards-content span{
+    color: #707070;
+    font-size: 14px;
+    line-height: 21px;
+}
