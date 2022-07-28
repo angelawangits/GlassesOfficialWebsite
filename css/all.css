@@ -133,6 +133,8 @@ h3{
     color: #AA0601;
     font-size: 48px;
     line-height: 72px;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .classic-products{
@@ -169,6 +171,8 @@ h3{
     font-size: 48px;
     line-height: 72px;
     background-color: white;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .recommend{
@@ -214,4 +218,46 @@ h3{
     color: #707070;
     font-size: 14px;
     line-height: 21px;
+}
+
+.contact{
+    padding: 80px 642px;
+    background-color: #FBF2F2;
+}
+
+.contact h2{
+    margin-bottom: 48px;
+}
+
+.contact h3{
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.contact p{
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contact input, textarea{
+    margin-bottom: 16px;
+    width: 636px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FBF2F2;
+    border: 1px solid;
+}
+
+.contact input[type=button]{
+    background-color: #AA0601;
+    max-width: 416px;
+    padding: 16px 176px;
+    border: 0px;
+    color: white;
 }
