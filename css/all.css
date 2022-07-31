@@ -144,11 +144,11 @@ h3{
 
 .joint h2{
     color: white;
-    margin-bottom: 48px;
 }
 
 .joint img{
     max-width: 648px;
+    margin-top: 48px;
 }
 
 .joint-products{
@@ -411,6 +411,43 @@ h3{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .joint{
+        background-image: url('../images/index-bg-sm.png');
+        padding: 40px 0px;
+    }
+
+    .double img{
+        content: url('../images/home-section4-1-sm.png');
+    }
+
+    .youth img{
+        content: url('../images/home-section4-2-sm.png');
+    }
+        
+    .joint img{
+        max-width: 348px;
+        margin-top: 24px;
+    }
+
+    .joint-products{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .joint-products li{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .joint-products h3{
+        color: #AA0601;
+        font-size: 48px;
+        line-height: 72px;
+        background-color: white;
+        font-weight: 900;
+        font-style: italic;
     }
     
 }
