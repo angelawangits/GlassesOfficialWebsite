@@ -251,7 +251,7 @@ h3{
 .form input[type=checkbox]{
     width: 24px;
     height: 24px;
-    margin-bottom: 48px;
+    margin-right: 4px;
 }
 
 .form input[type=button]{
@@ -272,6 +272,14 @@ h3{
     line-height: 24px;
     background-color: #FBF2F2;
     border: 1px solid;
+}
+
+.confirm{
+    display: flex;
+}
+
+.confirm p{
+    margin-bottom: 48px;
 }
 
 .btn{
@@ -458,5 +466,34 @@ h3{
     .cards-content{
         max-width: 348px;;
     }
+
+    .contact{
+        padding: 40px 14px 40px 13px;
+    }
     
+    .contact h2{
+        margin-bottom: 24px;
+    }
+    
+    .contact h3{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .form input[type=text]{
+        width: 348px;
+    }
+    
+    .form input[type=button]{
+        max-width: 348px;
+        padding: 16px 142px;
+    }
+    
+    .form textarea{
+        width: 348px;
+    }
+
+    .confirm p{
+        margin-bottom: 24px;
+    }
 }
