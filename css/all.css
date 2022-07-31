@@ -87,10 +87,6 @@ h3{
     background-color: #FBF2F2;
 }
 
-.slogan h2{
-    margin-bottom: 24px;
-}
-
 .slogan img{
     max-width: 100px;
     margin-bottom: 16px;
@@ -114,6 +110,7 @@ h3{
 
 .values li{
     width: 306px;
+    margin-top: 24px;
 }
 
 .classic{
@@ -363,6 +360,11 @@ h3{
 }
 
 @media (max-width: 767px) {
+    h2{
+        font-size: 24px;
+        line-height: 36px;
+    }
+
     .banner{
         background-image: url('../images/home-header-sm.png');
         padding-right: 14px;
@@ -378,5 +380,20 @@ h3{
         font-size: 24px;
         line-height: 36px;
         margin-bottom: 8px;
+    }
+    
+    .slogan{
+        padding: 40px 0px;
+    }
+    
+    .values{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .values li{
+        width: 348px;
     }
 }
