@@ -373,8 +373,11 @@ h3{
 
     .header{
         flex-direction: column;
-        justify-content: space-between;
-        height: 176px;
+        height: 100%;
+    }
+
+    .header img{
+        padding: 16px 0px;
     }
     
     .menu{
